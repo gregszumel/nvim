@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- can move around multiple lines  when highlighted
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -53,14 +52,4 @@ vim.keymap.set('n', '<leader>me', ':MagmaReevaluateCell<CR>')
 vim.keymap.set('n', '<leader>ms', ':MagmaShowOutput<CR>')
 
 
-
--- nnoremap <silent>       <LocalLeader>rr :MagmaEvaluateLine<CR>
-
--- xnoremap <silent>       <LocalLeader>r  :<C-u>MagmaEvaluateVisual<CR>
--- nnoremap <silent>       <LocalLeader>rc :MagmaReevaluateCell<CR>
--- nnoremap <silent>       <LocalLeader>rd :MagmaDelete<CR>
--- nnoremap <silent>       <LocalLeader>ro :MagmaShowOutput<CR>
-
--- let g:magma_automatically_open_output = v:false
--- let g:magma_image_provider = "ueberzug"
 
