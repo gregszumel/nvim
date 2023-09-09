@@ -52,4 +52,3 @@ vim.keymap.set('n', '<leader>me', ':MagmaReevaluateCell<CR>')
 vim.keymap.set('n', '<leader>ms', ':MagmaShowOutput<CR>')
 
 
-
