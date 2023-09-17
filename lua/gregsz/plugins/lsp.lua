@@ -100,3 +100,4 @@ require("null-ls").setup({
     sources = { null_ls.builtins.formatting.prettierd }
 })
 
+require'lspconfig'.gopls.setup({ })
