@@ -17,4 +17,5 @@ else
 	require("gregsz/plugins/treesitter")
 	require("gregsz/plugins/undotree")
 	require("gregsz/plugins/colors")
+	require("gregsz/plugins/zk")
 end
